@@ -49,7 +49,7 @@ npm install
 - Run SQL queries in phpMyAdmin:
 
 ```sql
-// Create schema
+-- Create schema
 USE book_collections;
 CREATE TABLE books (
     id INT AUTO_INCREMENT PRIMARY KEY,
@@ -60,7 +60,7 @@ CREATE TABLE books (
     description TEXT
 );
 
-// Create dummy records
+-- Create dummy records
 INSERT INTO books (title, author, genre, published_year, description) VALUES
 ('The Great Adventure', 'John Smith', 'Adventure', 2021, 'An epic tale of adventure and discovery, where a young hero embarks on a journey across uncharted lands to uncover hidden secrets and treasures.'),
 ('Mystery at the Manor', 'Jane Doe', 'Mystery', 2019, 'A gripping mystery set in an old manor, where dark secrets and unexpected twists keep readers on the edge of their seats as they follow the investigation.'),
