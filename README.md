@@ -211,6 +211,7 @@ Set props attribute to true in vue router:
     - Add new book: [http://localhost:8080/add](http://localhost:8080/add) (Create)
     - View & Edit & Delete book: Access by clicking cards on List all books page.(Read, Update, Delete)
 - Validation and Error Handling implemented on both frontend and backend.
+- Used both Axios and native fetch method to make API calls.
 - Database set properly, all server side logic implemented.
 - UI is clean, user-friendly and responsive.
 
