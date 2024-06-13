@@ -8,7 +8,7 @@
 - Backend: CodeIgniter 3.1.13
 - Database: MySQL 5.7.39
 
-## 📺 Demo Vidoe:
+## 📺 Demo Video:
 https://youtu.be/oq0Ucwktsq0
 
 ## How to Run
