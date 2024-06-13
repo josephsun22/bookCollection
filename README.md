@@ -219,6 +219,6 @@ Set props attribute to true in vue router:
 - Get AI-generated description when adding new book.
 - By calling OpenAI text generation API.
 - API key is enclosed in email submission, feel free to have a try.
-- Replace apikey in fronted -> src -> components -> AddBook.vue -> fetchDescription() -> apiKey.
+- Replace apikey in book_collections -> frontend -> src -> components -> AddBook.vue -> fetchDescription() -> apiKey.
 
 # 😊 Thank you for your time viewing my work
