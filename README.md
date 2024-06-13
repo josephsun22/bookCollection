@@ -207,4 +207,10 @@ Set props attribute to true in vue router:
 - Database set properly, all server side logic implemented.
 - UI is clean, user-friendly and responsive.
 
+## Extra AI feature:
+- Get AI-generated description when adding new book.
+- By calling OpenAI text generation API.
+- API key is enclosed in email submission, feel free to have a try.
+- Replace apikey in AddBook.vue -> fetchDescription() -> apiKey.
+
 # 😊 Thank you for your time viewing my work
