@@ -23,7 +23,9 @@
 git clone https://github.com/josephsun22/bookCollection.git
 ```
 
-1. Create a folder named **book_collections** under MAMP `htdocs` directory (e.g., `/Applications/MAMP/htdocs/book_collections`). And put source code in **book_collections.**
+1. Rename the source code foler name to **book_collections.**
+2. Move the folder **book_collections** to MAMP `htdocs` directory (e.g., `/Applications/MAMP/htdocs/book_collections`). 
+
 
 ### Step 3: Set Up Vue 2
 
@@ -31,6 +33,8 @@ git clone https://github.com/josephsun22/bookCollection.git
 2. Make sure node.js already installed in your computer, then run:
 
 ```bash
+npm cache clean --force
+rm package-lock.json
 npm install
 ```
 
@@ -211,6 +215,6 @@ Set props attribute to true in vue router:
 - Get AI-generated description when adding new book.
 - By calling OpenAI text generation API.
 - API key is enclosed in email submission, feel free to have a try.
-- Replace apikey in AddBook.vue -> fetchDescription() -> apiKey.
+- Replace apikey in fronted -> src -> components -> AddBook.vue -> fetchDescription() -> apiKey.
 
 # 😊 Thank you for your time viewing my work
